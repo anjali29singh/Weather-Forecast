@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:rgb(16, 187,254);
+}
+.main-heading {
+    color: rgb(247, 248, 248);
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.separator {
+    color: rgb(83, 84, 84);
+    margin: 10px
+}
+
+.location-block{
+    margin: 20px;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.search-box {
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Merriweather', serif;
+    font-size: large;
+    background-color: rgb(255, 252, 58);
+    font-weight: 400;
+
+}
+
+.submit {
+    height: 35px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(68, 239, 41);
+
+}
+
+.device-location {
+    background-color: rgb(237, 235, 235);
+    color: rgb(3, 130, 177);
+    border-radius: 2px;
+    align-self: center;
+    height: 5vh;
+    cursor: pointer;
+}
+.device-location:hover,.submit:hover{
+    opacity: 0.6;
+    
+}
+
+.forecast{
+    background-color: rgb(241, 238, 238);
+}
+
+.place-descript {
+    background: linear-gradient(to right, rgb(2, 2, 67), rgb(232, 14, 174));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+
+}
+.tempt,.date{
+     background: linear-gradient(to right, rgb(2, 128, 29), rgb(9, 96, 163));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.weather-description {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.date,
+.tempt{
+    margin: 5px;
+}
+
+.heading {
+    margin: 5px;
+    font-size: 20px;
+    color: rgb(35, 39, 43);
+    font-size: x-large;
+
+
+}
+
+.value {
+    color: rgb(12, 149, 228);
+}
+
+/* .hidden {
+    display: none;
+} */
+
+.weather-icon-img {
+    width: 50%;
+}

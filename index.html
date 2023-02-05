@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+
+</head>
+
+<body class="background">
+    <div class="container">
+        <header class="main-heading">Weather Forecast</header>
+        <section class="location-block">
+            <form>
+            <input type="text" class="search-box" placeholder="Enter a valid city name">
+            <button class="submit">Submit</button>
+            </form>
+            <div class="separator">or</div>
+            <div class="device-location">Get Device Location</div>
+
+        </section>
+        <div class="forecast hidden">
+            <div class="place-descript"><span class="region">Bhopal,Madhya Pradesh,</span> <br>
+            <span class="country">India </span>
+            </div>
+            <div class="date">
+                24 April 2023 ,Tuesday
+            </div>
+            <div class="tempt">
+                <span class="tempt-in-centi">21</span>
+                °C ,
+                <span class="condition">Cloudy</span>
+            </div>
+            <div class="weather-description">
+                <div >
+                    <i class="weather-icon">
+                        <img src="" class="weather-icon-img" />
+                    </i>
+                </div>
+            
+            <div class="heading humidity">Relative Humidity:
+            <span class="humid-val value">81%</span>
+            </div>
+            <div class="heading wind-spd">Wind Speed:
+            <span class="wind-val value">6 m/sec</span>
+            </div>
+
+            <div class="heading prec">Precipitation:
+                <span class="prep-val value">0 mm/hr</span>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
